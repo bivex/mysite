@@ -25,7 +25,7 @@ Develop with live rendering — every request regenerates the page. Export to st
 
 ---
 
-## Features
+## Features {#features}
 
 - **Syntax Highlighting** — Code blocks with Chroma lexer in Monokai theme
 - **Custom Templates** — HTML templates with `%title%`, `%CONTENT%` placeholders
@@ -36,7 +36,7 @@ Develop with live rendering — every request regenerates the page. Export to st
 
 ---
 
-## Get Started
+## Get Started {#getting-started}
 
 ```bash
 # Clone the repo
@@ -54,7 +54,7 @@ go run . -m export -r ./mysite -d ./dist
 
 ---
 
-## Tech Stack
+## Tech Stack {#stack}
 
 - **Go** — Backend and server
 - **gomarkdown/markdown** — Markdown to HTML

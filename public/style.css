@@ -25,22 +25,84 @@ body, html {
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1280px;
+	max-width: 1400px;
 	padding: 2rem;
 	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .header {
 	width: 100%;
-	display: flex;
-	gap: 1rem;
-	justify-content: space-between;
-	align-items: center;
+	margin-bottom: 2rem;
 }
 
-.nav {
+.layout {
 	display: flex;
+	gap: 2rem;
+	flex: 1;
+}
+
+.sidebar {
+	width: 250px;
+	flex-shrink: 0;
+	position: sticky;
+	top: 2rem;
+	height: fit-content;
+}
+
+.sidebar-nav {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.nav-section {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.nav-title {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: var(--text-muted);
+	padding: 0 0.75rem;
+}
+
+.nav-item {
+	padding: 0.5rem 0.75rem;
+	border-radius: 0.5rem;
+	color: var(--text);
+	text-decoration: none;
+	transition: background-color 0.2s;
+	display: block;
+}
+
+.nav-item:hover {
+	background-color: var(--bg-light);
+	color: var(--primary);
+}
+
+.nav-item:active {
+	background-color: var(--highlight);
+}
+
+.main {
+	flex: 1;
+	min-width: 0;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	gap: 1rem;
+	padding-top: 3rem;
+	margin-top: 3rem;
+	border-top: 1px solid var(--border-muted);
 }
 
 a, a:visited {
@@ -51,16 +113,13 @@ a:hover {
 	text-decoration: none;
 }
 
-.footer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1rem;
-	padding-top: 5rem;
-}
-
 h1, h2, h3, h4 {
 	color: var(--primary);
+	margin-top: 2rem;
+}
+
+h1:first-child, h2:first-child, h3:first-child {
+	margin-top: 0;
 }
 
 pre:has(> code) {
@@ -79,6 +138,34 @@ pre {
 	overflow-x: auto;
 }
 
-@media (max-width: 768px) {
-	.wrapper { padding: 1rem; }
+/* Smooth scroll to anchors */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+	.wrapper {
+		padding: 1rem;
+	}
+
+	.layout {
+		flex-direction: column;
+	}
+
+	.sidebar {
+		width: 100%;
+		position: static;
+	}
+
+	.sidebar-nav {
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.nav-section {
+		flex: 1;
+		min-width: 150px;
+	}
 }

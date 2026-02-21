@@ -13,14 +13,37 @@
 	<div class="wrapper">
 		<header class="header">
 			<h3>@laranatech/electrostatic project</h3>
-			<nav class="nav">
-				<a href="/">Home</a>
-				<a href="/articles">Articles</a>
-			</nav>
 		</header>
-		<main class="main">
-			%CONTENT%
-		</main>
+
+		<div class="layout">
+			<aside class="sidebar">
+				<nav class="sidebar-nav">
+					<div class="nav-section">
+						<div class="nav-title">Navigation</div>
+						<a href="/" class="nav-item">Home</a>
+						<a href="/articles" class="nav-item">Articles</a>
+					</div>
+
+					<div class="nav-section">
+						<div class="nav-title">Resources</div>
+						<a href="https://github.com/laranatech/electrostatic" class="nav-item" target="_blank">GitHub</a>
+						<a href="https://github.com/bivex/electrostatic" class="nav-item" target="_blank">Fork</a>
+					</div>
+
+					<div class="nav-section">
+						<div class="nav-title">Documentation</div>
+						<a href="#features" class="nav-item">Features</a>
+						<a href="#getting-started" class="nav-item">Get Started</a>
+						<a href="#stack" class="nav-item">Tech Stack</a>
+					</div>
+				</nav>
+			</aside>
+
+			<main class="main">
+				%CONTENT%
+			</main>
+		</div>
+
 		<footer class="footer">
 			<div>© 2025, Your name</div>
 			<div>powered by <a href="https://github.com/laranatech/electrostatic" target="_blank">@laranatech/electrostatic</a></div>
