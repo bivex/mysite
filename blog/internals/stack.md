@@ -247,6 +247,8 @@ Since output is static HTML:
 
 ---
 
+**Tags:** [internals](/tags/internals) [go](/tags/go) [architecture](/tags/architecture)
+
 **Related:**
 - [Features](/blog/internals/features)
 - [Go vs JavaScript for SSGs](/blog/go/go-vs-js)

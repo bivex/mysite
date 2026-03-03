@@ -16,10 +16,6 @@ Articles about infrastructure, deployment, tooling, and operations.
 ## Posts
 
 ### [Why Static Sites Are Making a Comeback](/blog/devops/why-static-sites)
-<div class="post-card-meta">
-	<span class="post-meta-item">📅 Feb 20, 2025</span>
-	<span class="post-meta-item">⏱️ 6 min read</span>
-</div>
 Explore the benefits of static site generators in 2025 — performance, security, and simplicity.
 
 ---

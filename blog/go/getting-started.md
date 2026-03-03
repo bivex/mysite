@@ -4,7 +4,7 @@ description: Learn how to set up your first static site with Electrostatic in mi
 keywords: electrostatic, tutorial, getting started, ssg
 date: 2025-02-21
 category: go
-tags: tutorial, go, ssg
+tags: go, tutorial, ssg
 readTime: 5 min
 ---
 
@@ -82,6 +82,8 @@ Edit `template.html` to change the layout and `public/style.css` for styling.
 Happy writing!
 
 ---
+
+**Tags:** [go](/tags/go) [tutorial](/tags/tutorial) [ssg](/tags/ssg)
 
 **Related:**
 - [Go vs JavaScript for Static Site Generators](/blog/go/go-vs-js)

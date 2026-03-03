@@ -70,6 +70,8 @@ Tools like Electrostatic make it easier than ever to build modern static sites w
 
 ---
 
+**Tags:** [devops](/tags/devops) [ssg](/tags/ssg) [performance](/tags/performance) [jamstack](/tags/jamstack) [hosting](/tags/hosting)
+
 **Related:**
 - [Go vs JavaScript for Static Site Generators](/blog/go/go-vs-js)
 - [Getting Started with Electrostatic](/blog/go/getting-started)

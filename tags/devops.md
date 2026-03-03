@@ -16,8 +16,6 @@ Posts about DevOps and infrastructure.
 
 ### [Why Static Sites Are Making a Comeback](/blog/devops/why-static-sites)
 <div class="post-card-meta">
-	<span class="post-meta-item">📅 Feb 20, 2025</span>
-	<span class="post-meta-item">⏱️ 6 min read</span>
 </div>
 Explore the benefits of static site generators in 2025 — performance, security, and simplicity.
 
@@ -25,8 +23,6 @@ Explore the benefits of static site generators in 2025 — performance, security
 
 ### [Electrostatic Features](/blog/internals/features)
 <div class="post-card-meta">
-	<span class="post-meta-item">📅 Feb 21, 2025</span>
-	<span class="post-meta-item">⏱️ 4 min read</span>
 </div>
 Explore all features of Electrostatic static site generator — lightning fast, markdown-first, and SSR support.
 

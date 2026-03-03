@@ -111,6 +111,8 @@ But for most websites? You don't need the complexity. Go SSGs like Electrostatic
 
 ---
 
+**Tags:** [go](/tags/go) [javascript](/tags/javascript) [ssg](/tags/ssg) [performance](/tags/performance) [comparison](/tags/comparison)
+
 **Related:**
 - [Getting Started with Electrostatic](/blog/go/getting-started)
 - [Tech Stack](/blog/internals/stack)

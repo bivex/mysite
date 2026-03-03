@@ -56,6 +56,8 @@ mysite/
 
 ---
 
+**Tags:** [internals](/tags/internals) [electrostatic](/tags/electrostatic) [features](/tags/features)
+
 **Related:**
 - [Tech Stack](/blog/internals/stack)
 - [Getting Started](/blog/go/getting-started)
