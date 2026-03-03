@@ -1,8 +1,11 @@
 ---
-title: Features
-description: Explore all features of Electrostatic static site generator
+title: Electrostatic Features
+description: Explore all features of Electrostatic static site generator — lightning fast, markdown-first, and SSR support
 keywords: features, ssg, markdown, syntax highlighting
 date: 2025-02-21
+category: internals
+tags: internals, electrostatic, features
+readTime: 4 min
 ---
 
 # Features
@@ -50,3 +53,9 @@ mysite/
 | index.md | / |
 | about.md | /about |
 | blog/post.md | /blog/post |
+
+---
+
+**Related:**
+- [Tech Stack](/blog/internals/stack)
+- [Getting Started](/blog/go/getting-started)

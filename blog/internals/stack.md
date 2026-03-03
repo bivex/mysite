@@ -1,8 +1,11 @@
 ---
 title: Tech Stack
-description: Under the hood of Electrostatic - technologies and architecture
+description: Under the hood of Electrostatic — technologies and architecture
 keywords: stack, architecture, go, dependencies
 date: 2025-02-21
+category: internals
+tags: internals, go, architecture
+readTime: 10 min
 ---
 
 # Tech Stack
@@ -242,16 +245,8 @@ Since output is static HTML:
 - [ ] Search functionality
 - [ ] Theme system
 
-## Contributing
+---
 
-Electrostatic is open source! Contributions welcome:
-
-1. Fork the repo
-2. Create a feature branch
-3. Submit a pull request
-
-See [CONTRIBUTING.md](https://github.com/laranatech/electrostatic/blob/main/CONTRIBUTING.md)
-
-## License
-
-MIT License — free to use for any purpose.
+**Related:**
+- [Features](/blog/internals/features)
+- [Go vs JavaScript for SSGs](/blog/go/go-vs-js)

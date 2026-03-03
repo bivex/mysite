@@ -1,8 +1,8 @@
 {
-	"title_template": "%title% | Your site",
+	"title_template": "%title% | @bivex",
 	"description_template": "%description%",
-	"keywords_template": "%keywords%, your keywords",
-	"fallback_title": "Fallback title",
-	"fallback_description": "Fallback description",
-	"fallback_keywords": "Fallback keywords"
+	"keywords_template": "%keywords%, bivex, blog, fullstack, go, web, devops",
+	"fallback_title": "@bivex | Full-Stack Development Blog",
+	"fallback_description": "Thoughts on Go, Web development, DevOps, and building modern software",
+	"fallback_keywords": "blog, fullstack, go, web, devops, algorithms, software engineering"
 }

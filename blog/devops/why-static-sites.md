@@ -1,8 +1,11 @@
 ---
 title: Why Static Sites Are Making a Comeback
-description: Explore the benefits of static site generators in 2025
+description: Explore the benefits of static site generators in 2025 — performance, security, and simplicity
 keywords: static sites, ssg, performance, jamstack
 date: 2025-02-20
+category: devops
+tags: devops, ssg, performance, jamstack, hosting
+readTime: 6 min
 ---
 
 # Why Static Sites Are Making a Comeback
@@ -64,3 +67,9 @@ echo "# Hello" > index.md
 For most content-driven websites, static sites offer the best combination of performance, security, and simplicity.
 
 Tools like Electrostatic make it easier than ever to build modern static sites with SSR during development and static export for production.
+
+---
+
+**Related:**
+- [Go vs JavaScript for Static Site Generators](/blog/go/go-vs-js)
+- [Getting Started with Electrostatic](/blog/go/getting-started)

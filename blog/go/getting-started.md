@@ -3,6 +3,9 @@ title: Getting Started with Electrostatic
 description: Learn how to set up your first static site with Electrostatic in minutes
 keywords: electrostatic, tutorial, getting started, ssg
 date: 2025-02-21
+category: go
+tags: tutorial, go, ssg
+readTime: 5 min
 ---
 
 # Getting Started with Electrostatic
@@ -63,6 +66,8 @@ title: My Article
 description: Article description
 keywords: tag1, tag2
 date: 2025-02-21
+category: go
+tags: tutorial, go
 ---
 
 # Content here
@@ -75,3 +80,9 @@ Markdown content...
 Edit `template.html` to change the layout and `public/style.css` for styling.
 
 Happy writing!
+
+---
+
+**Related:**
+- [Go vs JavaScript for Static Site Generators](/blog/go-vs-js)
+- [Why Static Sites Are Making a Comeback](/blog/devops/why-static-sites)

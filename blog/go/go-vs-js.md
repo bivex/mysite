@@ -1,8 +1,11 @@
 ---
 title: Go vs JavaScript for Static Site Generators
-description: Comparing Go-based and JavaScript-based SSGs
+description: Comparing Go-based and JavaScript-based SSGs — performance, build times, and developer experience
 keywords: go, javascript, ssg, comparison, performance
 date: 2025-02-19
+category: go
+tags: go, javascript, ssg, performance, comparison
+readTime: 8 min
 ---
 
 # Go vs JavaScript for Static Site Generators
@@ -11,7 +14,7 @@ When choosing a static site generator, one big decision is: Go or JavaScript?
 
 ## JavaScript SSGs
 
-Popular options: Next.js, Gatsby, Astro, Hugo (wait, Hugo is Go), Eleventy
+Popular options: Next.js, Gatsby, Astro, Eleventy
 
 ### Pros
 
@@ -105,3 +108,9 @@ No framework, no bundler, no hassle.
 For content sites, Go-based SSGs win on speed and simplicity. For app-like experiences, JavaScript frameworks still rule.
 
 But for most websites? You don't need the complexity. Go SSGs like Electrostatic give you the same result faster.
+
+---
+
+**Related:**
+- [Getting Started with Electrostatic](/blog/go/getting-started)
+- [Tech Stack](/blog/internals/stack)

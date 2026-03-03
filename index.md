@@ -1,66 +1,45 @@
 ---
-title: Electrostatic | Blazing Fast Static Sites
-description: Minimalist static site generator with SSR support. Build, deploy, scale.
-keywords: static site generator, ssg, go, markdown, fast, minimal
+title: @bivex
+description: Full-stack development blog covering Go, Web development, DevOps, and algorithms
+keywords: blog, fullstack, go, web, devops, algorithms
+date: 2025-03-03
 ---
 
-## ⚡ Electrostatic
+# @bivex
 
-**Build instant websites with Markdown & Go**
+**Thoughts on building modern software**
 
-Minimalist static site generator with SSR support.
-
----
-
-## Why Electrostatic?
-
-### 🚀 Lightning Fast
-**100/100 Lighthouse score** out of the box. No JavaScript bloat, no hydration, just pure HTML.
-
-### 📝 Write in Markdown
-Focus on content, not code. Use frontmatter for metadata, let the engine handle the rest.
-
-### 🔄 SSR Support
-Develop with live rendering — every request regenerates the page. Export to static for production.
+Welcome to my technical blog where I write about Go, web development, DevOps, and algorithms. I focus on practical, hands-on content that helps you ship better code.
 
 ---
 
-## Features {#features}
+## Latest Posts
 
-- **Syntax Highlighting** — Code blocks with Chroma lexer in Monokai theme
-- **Custom Templates** — HTML templates with `%title%`, `%CONTENT%` placeholders
-- **Static Assets** — CSS, JS, images served from `/assets/` and `/public/`
-- **Error Pages** — Built-in 404, 403, 500 templates
-- **Article Index** — Auto-generated `/articles` page with all content
-- **Minimal Dependencies** — Only Go standard library + markdown parser
+### [Go vs JavaScript for Static Site Generators](/blog/go-vs-js)
+Comparing Go-based and JavaScript-based SSGs — performance, build times, and developer experience.
 
----
+### [Why Static Sites Are Making a Comeback](/blog/devops/why-static-sites)
+Explore the benefits of static site generators in 2025 — performance, security, and simplicity.
 
-## Get Started {#getting-started}
-
-```bash
-# Clone the repo
-git clone https://github.com/laranatech/electrostatic
-
-# Initialize a new site
-go run . -m init -r ./mysite
-
-# Serve with SSR
-go run . -m serve -r ./mysite
-
-# Export to static files
-go run . -m export -r ./mysite -d ./dist
-```
+### [Getting Started with Electrostatic](/blog/go/getting-started)
+Learn how to set up your first static site with Electrostatic in minutes.
 
 ---
 
-## Tech Stack {#stack}
+## Categories
 
-- **Go** — Backend and server
-- **gomarkdown/markdown** — Markdown to HTML
-- **alecthomas/chroma** — Syntax highlighting
-- **Zero JS** — No build tools, no npm, no bundlers
+- **[Go](/blog/go)** — Go language, patterns, and best practices
+- **[Web](/blog/web)** — Frontend, backend, and everything in between
+- **[DevOps](/blog/devops)** — Infrastructure, deployment, and tooling
+- **[Internals](/blog/internals)** — Deep dives into how things work
+- **[Algorithms](/blog/algorithms)** — Data structures and problem solving
 
 ---
 
-*Powered by [Electrostatic](https://github.com/laranatech/electrostatic)*
+## About
+
+I'm a full-stack developer passionate about building simple, performant software. This blog is where I share what I learn along the way.
+
+---
+
+[View all posts →](/blog)
