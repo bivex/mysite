@@ -36,4 +36,4 @@ Under the hood of Electrostatic — technologies and architecture.
 
 ---
 
-[← All Tags](/tags) | [All Posts](/blog)
+[Back to all tags](/tags) | [All Posts](/blog)

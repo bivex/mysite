@@ -30,4 +30,4 @@ Browse articles by topic. Click on a tag to see all related posts.
 
 ---
 
-[← All Posts](/blog) | [Home](/)
+[Back to all posts](/blog) | [Home](/)

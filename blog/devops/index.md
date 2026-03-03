@@ -28,4 +28,4 @@ Explore the benefits of static site generators in 2025 — performance, security
 
 ---
 
-[← All Posts](/blog) | [Home](/)
+[Back to all posts](/blog) | [Home](/)

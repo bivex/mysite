@@ -84,5 +84,5 @@ Happy writing!
 ---
 
 **Related:**
-- [Go vs JavaScript for Static Site Generators](/blog/go-vs-js)
+- [Go vs JavaScript for Static Site Generators](/blog/go/go-vs-js)
 - [Why Static Sites Are Making a Comeback](/blog/devops/why-static-sites)

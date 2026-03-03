@@ -37,4 +37,4 @@ Learn how to set up your first static site with Electrostatic in minutes.
 
 ---
 
-[← All Posts](/blog) | [Home](/)
+[Back to all posts](/blog) | [Home](/)

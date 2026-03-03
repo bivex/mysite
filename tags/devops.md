@@ -36,4 +36,4 @@ Explore all features of Electrostatic static site generator — lightning fast, 
 
 ---
 
-[← All Tags](/tags) | [All Posts](/blog)
+[Back to all tags](/tags) | [All Posts](/blog)

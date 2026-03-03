@@ -27,4 +27,4 @@ Browse all posts chronologically.
 
 ---
 
-[← All Posts](/blog) | [Home](/)
+[Back to all posts](/blog) | [Home](/)

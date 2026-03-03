@@ -15,7 +15,7 @@ Welcome to my technical blog where I write about Go, web development, DevOps, an
 
 ## Latest Posts
 
-### [Go vs JavaScript for Static Site Generators](/blog/go-vs-js)
+### [Go vs JavaScript for Static Site Generators](/blog/go/go-vs-js)
 Comparing Go-based and JavaScript-based SSGs — performance, build times, and developer experience.
 
 ### [Why Static Sites Are Making a Comeback](/blog/devops/why-static-sites)
@@ -28,10 +28,10 @@ Learn how to set up your first static site with Electrostatic in minutes.
 
 ## Categories
 
-- **[Go](/blog/go)** — Go language, patterns, and best practices
-- **[Web](/blog/web)** — Frontend, backend, and everything in between
+- **[Go Programming](/blog/go)** — Go language, patterns, and best practices
+- **[Web Development](/blog/web)** — Frontend, backend, and everything in between
 - **[DevOps](/blog/devops)** — Infrastructure, deployment, and tooling
-- **[Internals](/blog/internals)** — Deep dives into how things work
+- **[System Internals](/blog/internals)** — Deep dives into how things work
 - **[Algorithms](/blog/algorithms)** — Data structures and problem solving
 
 ---

@@ -45,4 +45,4 @@ Learn how to set up your first static site with Electrostatic in minutes.
 
 ---
 
-[← All Tags](/tags) | [All Posts](/blog)
+[Back to all tags](/tags) | [All Posts](/blog)

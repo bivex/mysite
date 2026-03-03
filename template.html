@@ -8,6 +8,17 @@
 	<link rel="stylesheet" href="/monokai.css">
 	<meta name="description" content="%description%">
 	<meta name="keywords" content="%keywords%">
+	<meta name="author" content="@bivex">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://bivex.github.io/">
+	<meta property="og:title" content="%title%">
+	<meta property="og:description" content="%description%">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://bivex.github.io/">
+	<meta property="og:site_name" content="@bivex">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="%title%">
+	<meta name="twitter:description" content="%description%">
 </head>
 <body>
 	<div class="wrapper">
@@ -20,24 +31,24 @@
 				<nav class="sidebar-nav">
 					<div class="nav-section">
 						<div class="nav-title">Categories</div>
-						<a href="/blog/go" class="nav-item">Go</a>
-						<a href="/blog/web" class="nav-item">Web</a>
-						<a href="/blog/devops" class="nav-item">DevOps</a>
-						<a href="/blog/internals" class="nav-item">Internals</a>
-						<a href="/blog/algorithms" class="nav-item">Algorithms</a>
+						<a href="/blog/go" class="nav-item" aria-label="View Go articles">Go</a>
+						<a href="/blog/web" class="nav-item" aria-label="View Web development articles">Web</a>
+						<a href="/blog/devops" class="nav-item" aria-label="View DevOps articles">DevOps</a>
+						<a href="/blog/internals" class="nav-item" aria-label="View Internals articles">Internals</a>
+						<a href="/blog/algorithms" class="nav-item" aria-label="View Algorithms articles">Algorithms</a>
 					</div>
 
 					<div class="nav-section">
 						<div class="nav-title">Navigation</div>
-						<a href="/" class="nav-item">Home</a>
-						<a href="/blog" class="nav-item">All Posts</a>
-						<a href="/tags" class="nav-item">Tags</a>
-						<a href="/archive" class="nav-item">Archive</a>
+						<a href="/" class="nav-item" aria-label="Go to homepage">Home</a>
+						<a href="/blog" class="nav-item" aria-label="View all blog posts">All Posts</a>
+						<a href="/tags" class="nav-item" aria-label="Browse articles by tags">Tags</a>
+						<a href="/archive" class="nav-item" aria-label="Browse articles by date">Archive</a>
 					</div>
 
 					<div class="nav-section">
 						<div class="nav-title">Resources</div>
-						<a href="https://github.com/bivex" class="nav-item" target="_blank">GitHub</a>
+						<a href="https://github.com/bivex" class="nav-item" target="_blank" rel="noopener noreferrer" aria-label="View @bivex profile on GitHub">GitHub</a>
 					</div>
 				</nav>
 			</aside>
@@ -49,7 +60,7 @@
 
 		<footer class="footer">
 			<div>© 2025 @bivex</div>
-			<div>powered by <a href="https://github.com/laranatech/electrostatic" target="_blank">electrostatic</a></div>
+			<div>powered by <a href="https://github.com/laranatech/electrostatic" target="_blank" rel="noopener noreferrer">Electrostatic SSG</a></div>
 		</footer>
 	</div>
 </body>

@@ -28,4 +28,4 @@ More articles about algorithms are on the way! Check back soon for content on:
 
 ---
 
-[← All Posts](/blog) | [Home](/)
+[Back to all posts](/blog) | [Home](/)

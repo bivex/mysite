@@ -28,4 +28,4 @@ More articles about web development are on the way! Check back soon for content 
 
 ---
 
-[← All Posts](/blog) | [Home](/)
+[Back to all posts](/blog) | [Home](/)
